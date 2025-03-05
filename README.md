@@ -33,20 +33,18 @@ This is a simple web application that allows users to send email and SMS notific
    
     ```cmd
     EMAIL_USER=your_mail_which_is_used_for_sending_mails_from_this.
-    EMAIL_PASS=App_password created from google services
-    Create a Twilio account for sending sms
+    EMAIL_PASS=App_password created from google services Create a Twilio account for sending sms
     TWILIO_SID=Sid_from_twilio
     TWILIO_AUTH_TOKEN=token
-    TWILIO_PHONE_NUMBER=twilio_generated_phone_no.```
+    TWILIO_PHONE_NUMBER=twilio_generated_phone_no.
 
 
 
 5. Start the Development Server
-
-    ```cmd
+    ```
     cd backend
-    node server.js```
+    node server.js
     
     ```cmd
     cd frontend
-    npm start```
+    npm start
