@@ -27,23 +27,23 @@ Node.js (v18)
 1. Clone the Repository
 
 2. Install Dependencies
-    npm install express cors nodemailer twilio dotenv body-parser axios
+    `npm install express cors nodemailer twilio dotenv body-parser axios`
 
 3. Configure Environment Variables (.env in backend)
    Create a .env file in the root directory and add the following variables:
-    EMAIL_USER=your_mail_which_is_used_for_sending_mails_from_this.
+    `EMAIL_USER=your_mail_which_is_used_for_sending_mails_from_this.
     EMAIL_PASS=App_password created from google services
     Create a Twilio account for sending sms
     TWILIO_SID=Sid_from_twilio
     TWILIO_AUTH_TOKEN=token
-    TWILIO_PHONE_NUMBER=twilio_generated_phone_no.
+    TWILIO_PHONE_NUMBER=twilio_generated_phone_no.`
 
 
 
-5. Start the Development Server
+4. Start the Development Server
 
-    cd backend
-    node server.js
+    `cd backend
+    node server.js`
     
-    cd frontend
-    npm start
+    `cd frontend
+    npm start`
