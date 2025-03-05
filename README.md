@@ -45,6 +45,6 @@ This is a simple web application that allows users to send email and SMS notific
     cd backend
     node server.js
     
-    ```cmd
+
     cd frontend
     npm start
